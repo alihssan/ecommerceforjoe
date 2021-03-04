@@ -9,6 +9,8 @@ import {Collection} from "../components/Collection"
 export default function Home() {
   return (
   	<div className={styles.back}>
+  		<link rel="preconnect" href="https://fonts.gstatic.com"/>
+		<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet"/>
   		<Header2/>
   		<MainHead/>
   		<TextBanner/>
