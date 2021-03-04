@@ -1,0 +1,249 @@
+.hero__btns 
+.btn+.btn{ margin:0 !important;} 
+.hero__btns .btn--primary{ 
+color:#fff; 
+font:normal 400 20px "OB-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+line-height:22px; 
+letter-spacing:0.5px; 
+display:block; 
+vertical-align:top; 
+background:#ff0032; 
+border:0; 
+outline:none;
+ padding:14px 25px; 
+ text-decoration:none; 
+ text-transform:uppercase;
+ font-weight:bold;
+ } 
+ 
+ .hero__btns .btn--primary:hover{ 
+ 	background:#ca0028; text-decoration:none;
+ 	} 
+ .hero__btns .btn--transparent{ 
+ 	color:black; 
+ 	font:normal 400 20px "OB-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+ 	line-height:22px; 
+ 	letter-spacing:0.5px; 
+ 	display:block; 
+ 	vertical-align:top; 
+ 	background:transparent; 
+ 	border:0; outline:none; 
+ 	padding:14px 25px; 
+ 	text-decoration:underline; 
+ 	text-transform:uppercase;
+ 	} 
+ .hero__btns .btn--transparent:hover{ 
+ 	background:white; 
+ 	text-decoration:none;
+ 	} 
+ .hp .main{ 
+ 	max-width:100%;
+ 	} 
+
+.heading {
+    position: relative;
+    display: block;
+    font-family: OB-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #222;
+    padding: 0;
+    margin: 0 0 10px;}
+
+h1{
+
+	font-family:ob-regular,helvetica neue,Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-stretch: normal;
+    font-size: 92px;
+    font-weight: 600;
+    line-height: 92px;
+    letter-spacing: 1px;
+        margin:0 0 10px;
+
+   
+}
+h2{
+	font-family:ob-regular,helvetica neue,Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-stretch: normal;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 1px;
+    margin:0 0 10px;
+
+}
+.text--white-color {
+    color: #fff;
+}
+.bay-video{
+	display: none;
+}
+@media (max-width:900px){
+	h1{
+		line-height: 80px;
+	}
+	h2{
+		line-height:40px;
+	}
+}
+@media (max-width: 766px){
+	h1{
+ 		font-size: 16px;
+ 		line-height: 18px;
+ 	}
+ 	.atlantic-bay-video{
+ 		display: none;
+ 	}
+ 	.bay-video{
+ 		display: block;
+ 	}
+
+}
+@media (max-width: 500px){
+	h2{
+		font-size: 30px;
+		line-height: 25px;
+		padding-top: 50px;
+	}
+	h1{
+		line-height: 15px;
+	}
+	.hero__btns .btn--primary{ 
+
+		font-size: 14px;
+		 	padding:12px 22px; 
+		 	line-height:15px; 
+
+
+	}
+}
+ @media only screen and (min-width:1280px) and (max-width:1330px){ 
+ 	.hp .main{ 
+ 		padding:0
+ 		}} 
+ @media only screen and (min-width:320px) and (max-width:766px){ 
+ 	.hp .main{ 
+ 	padding:0
+ 	}} 
+ 	.homepage{ 
+ 	max-width:none;
+ 	} 
+ 	
+ @media screen and (min-width:767px) and (max-width:1279px){ 
+ 	.homepage{ padding:0;
+ 	}
+ 	} .homepage .homepage-block{ 
+ 	font-size:inherit; 
+ 	text-align:left;
+ 	} 
+ @media screen and (min-width:767px) and (max-width:1279px){ 
+ 	.homepage .homepage-block{ 
+ 		margin-bottom:0
+ 		}} 
+ 	.homepage-carousel{ 
+ 		position:relative; padding:0; margin-bottom:0;
+ 		} 
+ 	.container{ 
+ 		position:relative; 
+ 		width:100%; 
+ 		max-width:1280px; 
+ 		padding-top:0; 
+ 		padding-bottom:0; 
+ 		margin-top:0; 
+ 		margin-right:auto; 
+ 		margin-left:auto;
+ 		} 
+ 	.container__main{ 
+ 		padding-top:20px;
+ 		} 
+ 	.container__absolute{ 
+ 		position:absolute; 
+ 		top:0; 
+ 		right:0; 
+ 		bottom:0; 
+ 		left:0;
+ 		} 
+ 	.container--full{ 
+ 		max-width:none; 
+ 		padding-right:0; 
+ 		padding-left:0
+ 		} 
+ 		.container--small-margin-bottom{ 
+ 			margin-bottom:15px;
+ 			} 
+ @media screen and (max-width:1023px){ 
+ 	.container--full{ padding-right:0; padding-left:0} 
+ 	.hero__btns{ margin-top:20px !important;}} 
+ 	@media screen and (max-width:667px){ 
+ 		
+ 		.container--full{ padding-right:0; padding-left:0;} 
+ 		.hero__btns .btn+.btn, .hero__btns{ margin:10px auto !important;}} 
+ 		.gs{ padding-right:10px; padding-left:10px; -webkit-box-flex:1; flex:1 1 0px;} 
+ 		.gs--1{ flex:0 0 8.3333333333%; max-width:8.3333333333%} 
+ 		.gs--2{ flex:0 0 16.6666666667%; max-width:16.6666666667%} 
+ 		.gs--3{ flex:0 0 25%; max-width:25%} .gs--4{ flex:0 0 33.3333333333%; max-width:33.3333333333%} 
+ 		.gs--5{ flex:0 0 41.6666666667%; max-width:41.6666666667%} 
+ 		.gs--6{ flex:0 0 50%; max-width:50%} 
+ 		.gs--7{ flex:0 0 58.3333333333%; max-width:58.3333333333%} 
+ 		.gs--8{ flex:0 0 66.6666666667%; max-width:66.6666666667%} 
+ 		.gs--9{ flex:0 0 75%; max-width:75%} 
+ 		.gs--10{ flex:0 0 83.3333333333%; max-width:83.3333333333%} 
+ 		.gs--11{ flex:0 0 91.6666666667%; max-width:91.6666666667%} 
+ 		.gs--12{ flex:0 0 100%; max-width:100%} 
+ 		.gs--flex-grow-none{ -webkit-box-flex:unset; flex:none} 
+ 		@media screen and (max-width:1023px){ 
+ 		.gs{ padding-right:6px; padding-left:6px} 
+ 		.gs--1-medium{ flex:0 0 8.3333333333%; max-width:8.3333333333%} 
+ 		.gs--2-medium{ flex:0 0 16.6666666667%; max-width:16.6666666667%} 
+ 		.gs--3-medium{ flex:0 0 25%; max-width:25%} 
+ 		.gs--4-medium{ flex:0 0 33.3333333333%; max-width:33.3333333333%} 
+ 		.gs--5-medium{ flex:0 0 41.6666666667%; max-width:41.6666666667%} 
+ 		.gs--6-medium{ flex:0 0 50%; max-width:50%} 
+ 		.gs--7-medium{ flex:0 0 58.3333333333%; max-width:58.3333333333%} 
+ 		.gs--8-medium{ flex:0 0 66.6666666667%; max-width:66.6666666667%} 
+ 		.gs--9-medium{ flex:0 0 75%; max-width:75%} 
+ 		.gs--10-medium{ flex:0 0 83.3333333333%; max-width:83.3333333333%} 
+ 		.gs--11-medium{ flex:0 0 91.6666666667%; max-width:91.6666666667%} 
+ 		.gs--12-medium{ flex:0 0 100%; max-width:100%} 
+ 		.gs--flex-grow-none-medium{ -webkit-box-flex:unset; flex:none}} 
+ @media screen and (max-width:667px){ 
+ 	.gs{ padding-right:5px; padding-left:5px} 
+ 	.gs--1-small{ flex:0 0 50%; max-width:50%} 
+ 	.gs--2-small{ flex:0 0 100%; max-width:100%} 
+ 	.gs--flex-grow-none-small{ -webkit-box-flex:unset; flex:none}} 
+ 	.flex{ display:flex} .flex--wrap{ flex-wrap:wrap} 
+ 	.flex--nowrap{ flex-wrap:nowrap} .flex--center{ justify-content:center} 
+ 	.flex--right{ justify-content:flex-end} .flex--left{ justify-content:flex-start} 
+ 	.flex--align-center{ align-items:center} .flex--align-bottom{ align-items:flex-end} 
+ 	.flex--grow{ flex-grow:1} 
+ @media screen and (max-width:1023px){ 
+ 	.flex--center-medium{ justify-content:center} 
+ 	.flex--right-medium{ justify-content:flex-end} 
+ 	.flex--left-medium{ justify-content:flex-start} 
+ 	.flex--align-center-medium{ align-items:center} 
+ 	.flex--align-bottom-medium{ align-items:flex-end}}
+  @media screen and (max-width:667px){ 
+  	.flex--center-small{ justify-content:center} 
+  	.flex--right-small{ justify-content:flex-end} 
+  	.flex--left-small{ justify-content:flex-start} 
+  	.flex--align-center-small{ align-items:center} 
+  	.flex--align-bottom-small{ align-items:flex-end}} 
+  	.img{ width:100%; padding:0; margin:0} 
+  	.img__container{ overflow:hidden; line-height:0} 
+  	.img__container.img--loaded{ height:auto} 
+	.img--ratio{ position:relative; transition:padding 0s} 
+	.img--ratio img{ position:absolute; top:0; left:0; padding:0} 
+	.img--ratio-hero{ padding-top:36.5263157895%} 
+	.img--ratio-16x9{ padding-top:56.2195121951%} 
+	.img--ratio-3x2{ padding-top:66.7138810198%} 
+	.img--lazy{ opacity:0} .img--loaded .img--lazy{ opacity:1} .img--loaded.img--ratio{ padding-top:0} .img--loaded.img--ratio .img{ position:static} @media screen and (max-width:1023px){ .img--ratio-hero-medium{ padding-top:66.8402777778%} .img--ratio-16x9-medium{ padding-top:56.2195121951%} .img--ratio-3x2-medium{ padding-top:66.7138810198%} .img--loaded .img--lazy{ opacity:1} .img--loaded.img--ratio{ padding-top:0} .img--loaded.img--ratio .img{ position:static}} @media screen and (max-width:667px){ .img--ratio-hero-small{ padding-top:100%} .img--ratio-16x9-small{ padding-top:56.2195121951%} .img--ratio-3x2-small{ padding-top:66.7138810198%} .img--loaded .img--lazy{ opacity:1} .img--loaded.img--ratio{ padding-top:0} .img--loaded.img--ratio .img{ position:static}} .icon{ display:inline-block; text-indent:-9999px; margin:auto} .icon--svg{ display:block; width:100%} .btn{ display:inline-block; color:#000; text-align:center; text-decoration:none; padding-top:13px; padding-right:20px; padding-bottom:9px; padding-left:20px; cursor:pointer} .btn:focus, .btn:hover{ text-decoration:none} .btn:focus{ outline:1px dotted #838383} .btn--primary{ background-color:#e52717; color:#fff; text-transform:uppercase; letter-spacing:2px} .btn--primary:focus{ outline:0; background-color:#000} .btn--secondary{ background-color:#000; border:1px solid #000; color:#fff; text-transform:uppercase; letter-spacing:2px; padding-top:12px; padding-bottom:8px} .btn--secondary:focus, .btn--secondary:hover{ outline:0; color:#000; background-color:#fff} .btn--ghost{ border:1px solid #000; text-transform:uppercase; letter-spacing:2px; padding-top:12px; padding-bottom:8px} .btn--ghost:focus, .btn--ghost:hover{ outline:0; background-color:#000; color:#fff} .btn--ghost-white{ border:1px solid #fff; text-transform:uppercase; letter-spacing:2px; color:#fff; padding-top:12px; padding-bottom:8px} .btn--ghost-white:focus, .btn--ghost-white:hover{ outline:0; background-color:#fff; color:#000} .btn--text{ display:inline; border-bottom:1px solid #000; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0} .btn--text:focus, .btn--text:hover{ border-color:#000} .btn--text:focus{ outline:1px dotted #838383} .btn--text-primary{ font:normal 400 16px Gothic-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif; font-stretch:normal; font-style:normal; line-height:17px; letter-spacing:.06px} @media screen and (max-width:1023px){ .btn--text-primary{ font-size:16px; line-height:24px}} .btn--text-inherit{ font-family:inherit; font-size:inherit; font-weight:inherit; letter-spacing:inherit; color:inherit} .btn--block{ display:block; line-height:0; text-align:left; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0} .btn--block:focus .btn--ghost{ outline:0; background-color:#000; color:#fff} .btn--block:focus .btn--ghost-white{ outline:0; background-color:#fff; color:#000} .btn--block:focus .btn--text{ border-color:#000} .btn--block:focus .img__container{ position:relative} .btn--block:focus .img__container::after{ position:absolute; content:""; border:1px solid #fff; top:3px; right:3px; bottom:3px; left:3px} .btn--min-width{ min-width:160px} .btn--medium-min-width{ min-width:200px} .btn--large-min-width{ min-width:260px} @media screen and (max-width:1023px){ .btn--primary-medium{ background-color:#e52717; color:#fff; text-transform:uppercase; letter-spacing:2px} .btn--primary-medium:focus, .btn--primary-medium:hover{ outline:0; background-color:#000} .btn--secondary-medium{ background-color:#000; border:1px solid #000; color:#fff; text-transform:uppercase; letter-spacing:2px; padding-top:12px; padding-bottom:8px} .btn--secondary-medium:focus, .btn--secondary-medium:hover{ outline:0; color:#000; background-color:#fff} .btn--ghost-medium{ border:1px solid #000; text-transform:uppercase; letter-spacing:2px; padding-top:12px; padding-bottom:8px} .btn--ghost-medium:focus, .btn--ghost-medium:hover{ outline:0; background-color:#000; color:#fff} .btn--ghost-white-medium{ border:1px solid #fff; text-transform:uppercase; letter-spacing:2px; color:#fff; padding-top:12px; padding-bottom:8px} .btn--ghost-white-medium:focus, .btn--ghost-white-medium:hover{ outline:0; background-color:#fff; color:#000} .btn--text-medium{ display:inline; border-bottom:1px solid #000; font:normal 400 16px OB-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif; line-height:22px; letter-spacing:-.47px; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0} .btn--text-medium:focus, .btn--text-medium:hover{ border-color:#000} .btn--text-medium:focus{ outline:1px dotted #838383} .btn--text-primary-medium{ font-family:PalatinoLTStd-Roman, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:18px; font-weight:400}} @media screen and (max-width:1023px) and (max-width:1023px){ .btn--text-primary-medium{ font-size:16px; line-height:24px}} @media screen and (max-width:1023px){ .btn--text-inherit-medium{ font-family:inherit; font-size:inherit; font-weight:inherit; letter-spacing:inherit; color:inherit}} @media screen and (max-width:1023px){ .btn--min-width-medium{ min-width:160px}} @media screen and (max-width:1023px){ .btn--medium-min-width-medium{ min-width:200px}} @media screen and (max-width:1023px){ .btn--large-min-width-medium{ min-width:260px}} @media screen and (max-width:667px){ .btn--primary-small{ background-color:#e52717; color:#fff; text-transform:uppercase; letter-spacing:2px} .btn--primary-small:focus, .btn--primary-small:hover{ outline:0; background-color:#000} .btn--secondary-small{ background-color:#000; border:1px solid #000; color:#fff; text-transform:uppercase; letter-spacing:2px; padding-top:12px; padding-bottom:8px} .btn--secondary-small:focus, .btn--secondary-small:hover{ outline:0; color:#000; background-color:#fff} .btn--ghost-small{ border:1px solid #000; text-transform:uppercase; letter-spacing:2px; padding-top:12px; padding-bottom:8px} .btn--ghost-small:focus, .btn--ghost-small:hover{ outline:0; background-color:#000; color:#fff} .btn--ghost-white-small{ border:1px solid #fff; text-transform:uppercase; letter-spacing:2px; color:#fff; padding-top:12px; padding-bottom:8px} .btn--ghost-white-small:focus, .btn--ghost-white-small:hover{ outline:0; background-color:#fff; color:#000} .btn--text-small{ display:inline; border-bottom:1px solid #000; font:normal 400 16px OB-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif; line-height:22px; letter-spacing:-.47px; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0} .btn--text-small:focus, .btn--text-small:hover{ border-color:#000} .btn--text-small:focus{ outline:1px dotted #838383} .btn--text-primary-small{ font-family:PalatinoLTStd-Roman, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:18px; font-weight:400}} @media screen and (max-width:667px) and (max-width:1023px){ .btn--text-primary-small{ font-size:16px; line-height:24px}} @media screen and (max-width:667px){ .btn--text-inherit-small{ font-family:inherit; font-size:inherit; font-weight:inherit; letter-spacing:inherit; color:inherit}} @media screen and (max-width:667px){ .btn--min-width-small{ min-width:160px}} @media screen and (max-width:667px){ .btn--medium-min-width-small{ min-width:200px}} @media screen and (max-width:667px){ .btn--large-min-width-small{ min-width:260px}} .heading{ position:relative; display:block; font-family:OB-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:400; text-transform:uppercase; color:#222; padding:0; margin:0 0 10px} .heading--1{ font:normal 400 89px OB-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif; line-height:22px; letter-spacing:-.47px; color:#222} .heading--2{ font:normal 400 37px OB-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif; line-height:22px; letter-spacing:-.47px; color:#222} .heading--3{ font:normal 400 20px OB-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif; line-height:22px; letter-spacing:-.47px; color:#222} .heading--4{ font:normal 400 18px OB-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif; line-height:22px; letter-spacing:-.47px; color:#222} .heading--light-4{ font:normal 400 16px OB-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif; line-height:22px; letter-spacing:-.47px; color:#222} .heading--5{ font:normal 400 16px OB-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif; line-height:22px; letter-spacing:-.47px; color:#222} .heading--light-5{ font:normal 400 16px OB-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif; line-height:22px; letter-spacing:-.47px; color:#222} .heading--center{ text-align:center} .heading--center.heading--headline:before{ right:0; margin:0 auto} .heading--right{ text-align:right} .heading--right.heading--headline:before{ right:0; left:auto} .heading--left{ text-align:left} .heading--left.heading--headline:before{ right:auto; left:0} .heading--texttransform-none{ text-transform:none} @media screen and (max-width:1023px){ .heading--1{ font-size:50px; line-height:50px} .heading--2{ font-size:28px; line-height:28px; letter-spacing:4.5px} .heading--3{ font-size:16px} .heading--4{ font-size:14px; line-height:20px} .heading--light-5{ font-size:12px; line-height:18px} .heading--center-medium{ text-align:center} .heading--center-medium.heading--headline:before{ right:0; margin:0 auto} .heading--right-medium{ text-align:right} .heading--right-medium.heading--headline:before{ right:0; left:auto} .heading--left-medium{ text-align:left} .heading--left-medium.heading--headline:before{ right:auto; left:0}} @media screen and (max-width:667px){ .heading--1{ font-size:45px; line-height:45px} .heading--2{ font-size:20px; line-height:24px; letter-spacing:3.5px} .heading--3{ font-size:14px; line-height:18px} .heading--4{ font-size:13px} .heading--light-4{ font-size:14px; line-height:18px} .heading--center-small{ text-align:center} .heading--center-small.heading--headline:before{ right:0; margin:0 auto} .heading--right-small{ text-align:right} .heading--right-small.heading--headline:before{ right:0; left:auto} .heading--left-small{ text-align:left} .heading--left-small.heading--headline:before{ right:auto; left:0}} .text{ font:normal 400 16px Gothic-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif; font-stretch:normal; font-style:normal; line-height:17px; letter-spacing:.06px; color:#000; padding:0; margin-top:20px; margin-right:0; margin-bottom:20px !important; margin-left:0} .text--s{ font-size:16px; line-height:24px} .text--xs{ font-size:14px; line-height:18px} .text--primary-color{ color:#000} .text--red-color{ color:#ff0032} .text--white-color{ color:#fff} .text--center{ text-align:center} .text--right{ text-align:right} .text--left{ text-align:left} .text--max-width{ max-width:820px; margin-right:auto; margin-left:auto} @media screen and (max-width:1023px){ .text{ font-size:16px; line-height:24px} .text--primary-color-medium{ color:#000} .text--red-color-medium{ color:#e52717} .text--white-color-medium{ color:#fff} .text--center-medium{ text-align:center} .text--right-medium{ text-align:right} .text--left-medium{ text-align:left}} @media screen and (max-width:667px){ .text--s{ font-size:14px; line-height:18px} .text--primary-color-small{ color:#000} .text--red-color-small{ color:#e52717} .text--white-color-small{ color:#fff} .text--center-small{ text-align:center} .text--right-small{ text-align:right} .text--left-small{ text-align:left}} .hr{ border:none; border-top:4px solid #000; width:47px; margin:0} .hr--red{ border-color:#e52717} .hr--center{ margin:0 auto} .hr--right{ margin:0 0 0 auto} @media screen and (max-width:1023px){ .hr--center-medium{ margin:0 auto} .hr--right-medium{ margin:0 0 0 auto}} @media screen and (max-width:667px){ .hr--center-small{ margin:0 auto} .hr--right-small{ margin:0 0 0 auto}} .no-padding{ padding-top:0; padding-right:0; padding-bottom:0; padding-left:0} .no-padding--t{ padding-top:0} .no-padding--r{ padding-right:0} .no-padding--b{ padding-bottom:0} .no-padding--l{ padding-left:0} @media screen and (max-width:1023px){ .no-padding--medium{ padding-top:0; padding-right:0; padding-bottom:0; padding-left:0} .no-padding--t-medium{ margin-top:0} .no-padding--r-medium{ margin-right:0} .no-padding--b-medium{ margin-bottom:0} .no-padding--l-medium{ margin-left:0}} @media screen and (max-width:667px){ .no-padding--small{ padding-top:0; padding-right:0; padding-bottom:0; padding-left:0} .no-padding--t-small{ margin-top:0} .no-padding--r-small{ margin-right:0} .no-padding--b-small{ margin-bottom:0} .no-padding--l-small{ margin-left:0}} .no-margin{ margin-top:0; margin-right:0; margin-bottom:0; margin-left:0} .no-margin--t{ margin-top:0} .no-margin--r{ margin-right:0} .no-margin--b{ margin-bottom:0} .no-margin--l{ margin-left:0} @media screen and (max-width:1023px){ .no-margin--medium{ margin-top:0; margin-right:0; margin-bottom:0; margin-left:0} .no-margin--t-medium{ margin-top:0} .no-margin--r-medium{ margin-right:0} .no-margin--b-medium{ margin-bottom:0} .no-margin--l-medium{ margin-left:0}} @media screen and (max-width:667px){ .no-margin--small{ margin-top:0; margin-right:0; margin-bottom:0; margin-left:0} .no-margin--t-small{ margin-top:0} .no-margin--r-small{ margin-right:0} .no-margin--b-small{ margin-bottom:0} .no-margin--l-small{ margin-left:0}} .hide{ display:none} @media screen and (max-width:1023px){ .hide--medium{ display:none}} @media screen and (max-width:667px){ .hide--small{ display:none}} @media screen and (max-width:1023px){ .order--1-medium{ order:1} .order--2-medium{ order:2} .order--3-medium{ order:3} .order--4-medium{ order:4} .order--5-medium{ order:5} .order--6-medium{ order:6}} @media screen and (max-width:667px){ .order--1-small{ order:1} .order--2-small{ order:2} .order--3-small{ order:3} .order--4-small{ order:4} .order--5-small{ order:5} .order--6-small{ order:6}} .hero__btns{ margin-top:5px} .hero__btns .btn{ margin-top:10px} .hero__btns .btn+.btn{ margin-left:10px} @media only screen and (max-width:767px) and (min-width:320px){ .slick-prev, .slick-next{ top:17px;}} @media screen and (min-width:668px){ .product-carousel .slick-slide .tile:hover .product-quickview{ display:block}} @media only screen and (min-width:1200px){ .container--carousel .slick-arrow{ top:31%} .slick-prev{ left:-2.5%} .slick-next{ right:-2.5%}}

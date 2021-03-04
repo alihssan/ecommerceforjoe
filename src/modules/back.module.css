@@ -1,0 +1,19 @@
+
+.back{
+	height:100vh;
+	margin: -7.4px;
+	background-position: -300px;
+	background-size: 300vh;
+	background-position-y:-30px; 
+	background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'Garamond';
+    src: url(../fonts/EBGaramond-VariableFont_wght.ttf) format('truetype');
+    font-family: 'georgia';
+    src: url(../fonts/georgia.ttf) format('truetype');
+	font-family: 'Neutra Text';
+    src: url(../fonts/NeutraText-Book.otf) format('truetype');
+
+}
