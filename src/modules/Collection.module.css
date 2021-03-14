@@ -1,10 +1,11 @@
 .collectioncont{
 	width:99.8%;
-	height:700px;
+	height:550px;
+	margin-bottom: 10px;
 }
 .cont{
 	width:92%;
-	height:80%;
+	height:95%;
 	margin-left: 5%;
 	margin-right: 2%;
 }

@@ -1,0 +1,170 @@
+.card1{
+	width:80%;
+	height:300px;
+}
+.card1 img{
+	width:100%;
+	height:85%;
+}
+.card1 h1{
+	width:100%;
+	height:19%;
+	font-size: 15px;
+	margin-top:-20px;
+	display: block;
+    min-height: 44px;
+    color: rgb(0, 0, 0);
+    font: 13px / 22px graphik, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    position: static;
+    top: auto;
+    left: auto;
+    bottom: auto;
+}
+.card3{
+	width:80%;
+	height:300px;
+}
+.card3 img{
+	width:100%;
+	height:85%;
+}
+.card3 h1{
+	width:100%;
+	height:19%;
+	font-size: 15px;
+	margin-top:-20px;
+	display: block;
+    min-height: 44px;
+    color: rgb(0, 0, 0);
+    font: 13px / 22px graphik, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    position: static;
+    top: auto;
+    left: auto;
+    bottom: auto;
+}
+.card3{
+	width:80%;
+	height:300px;
+}
+.card3 img{
+	width:100%;
+	height:85%;
+}
+.card3 h1{
+	width:100%;
+	height:19%;
+	font-size: 15px;
+	margin-top:-20px;
+	display: block;
+    min-height: 44px;
+    color: rgb(0, 0, 0);
+    font: 13px / 22px graphik, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    position: static;
+    top: auto;
+    left: auto;
+    bottom: auto;
+}
+.card4{
+	width:80%;
+	height:300px;
+}
+.card4 img{
+	width:100%;
+	height:85%;
+}
+.card4 h1{
+	width:100%;
+	height:19%;
+	font-size: 15px;
+	margin-top:-20px;
+	display: block;
+    min-height: 44px;
+    color: rgb(0, 0, 0);
+    font: 13px / 22px graphik, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    position: static;
+    top: auto;
+    left: auto;
+    bottom: auto;
+}
+.card5{
+	width:80%;
+	height:300px;
+}
+.card5 img{
+	width:100%;
+	height:85%;
+}
+.card5 h1{
+	width:100%;
+	height:19%;
+	font-size: 15px;
+	margin-top:-20px;
+	display: block;
+    min-height: 44px;
+    color: rgb(0, 0, 0);
+    font: 13px / 22px graphik, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    position: static;
+    top: auto;
+    left: auto;
+    bottom: auto;
+}
+@media (max-width:500px){
+	.card1 img{
+		height:65%;
+	}
+	.card2 img{
+		height:65%;
+	}
+	.card3 img{
+		height:65%;
+	}
+	.card4 img{
+		height:65%;
+	}
+	.card5 img{
+		height:65%;
+	}
+	
+}
+@media (max-width:460px){
+	.card1{
+	width:80%;
+	height:300px;
+	margin-left: -100px;
+}
+.card2{
+	width:80%;
+	height:300px;
+	margin-left: -100px;
+}
+.card3{
+	width:80%;
+	height:300px;
+	margin-left: -100px;
+}
+.card4{
+	width:80%;
+	height:300px;
+	margin-left: -100px;
+}
+.card5{
+	width:80%;
+	height:300px;
+	margin-left: -100px;
+}
+}

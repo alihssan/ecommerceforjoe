@@ -1,7 +1,6 @@
 
 .back{
-	height:100vh;
-	margin: -7.4px;
+	margin:-6.2px;
 	background-position: -300px;
 	background-size: 300vh;
 	background-position-y:-30px; 
@@ -16,4 +15,9 @@
 	font-family: 'Neutra Text';
     src: url(../fonts/NeutraText-Book.otf) format('truetype');
 
+}
+@media (max-width:1200px){
+	.back{
+	margin:-5px;
+	}
 }

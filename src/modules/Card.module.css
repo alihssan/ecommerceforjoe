@@ -1,0 +1,15 @@
+.card{
+	width:18%;
+	height:80%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 1.7%;
+}
+.card img{
+	width:100%;
+	height:86%;
+}
+.card h1{
+	font-size: 15px;
+
+}

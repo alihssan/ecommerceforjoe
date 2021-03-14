@@ -1,0 +1,56 @@
+.card{
+	width:309.75px;
+	height:380px;
+}
+.card img{
+	width:100%;
+	height:309.75px;
+}
+.card h1{
+	width:100%;
+	height:19%;
+	font-size: 15px;
+	margin-top:-20px;
+	display: block;
+    min-height: 44px;
+    color: rgb(0, 0, 0);
+    font: 13px / 22px graphik, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    position: static;
+    top: auto;
+    left: auto;
+    bottom: auto;
+}
+@media (max-width: 651px){
+	.card{
+		width:224.8px;
+		height:300px;
+	}
+	.card img{
+		width: 224.8px;
+		height:224.8px;
+	}
+}
+@media (max-width:500px){
+	.card{
+			height:400;
+			width:275px;
+
+	}
+	.card img{
+		height:275px;
+		width:100%;
+	}
+}
+@media (max-width: 460px){
+	.card{
+		width: 275px;
+
+	}
+	.card img{
+		height: 275px;
+		border:1px solid black;
+	}
+}
