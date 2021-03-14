@@ -35,7 +35,7 @@ myHeaders.append("Authorization", "Bearer EAAAEIEcm9qhG1ds8GyWU6SwEcew6_d96hMEAI
 var requestOptions = {
   method: 'GET',
   headers: {Accept: "application/json",
-      Content-Type, "application/json",
+      Content-Type: "application/json",
       Authorization, "Bearer EAAAEIEcm9qhG1ds8GyWU6SwEcew6_d96hMEAI9QtLa8LRMHByTtcOIZ5-Dj5-8C"},
   redirect: 'follow'
 };
