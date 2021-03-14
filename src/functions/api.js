@@ -56,7 +56,7 @@ data=data.then(res=>res.text())
     // return null to show no errors
     statusCode: 200, // http status code
     body: JSON.stringify({
-          
+          data
     }),
   })
 }
