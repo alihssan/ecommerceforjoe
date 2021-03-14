@@ -48,14 +48,11 @@ var data=fetch("https://connect.squareup.com/v2/catalog/list", {
 }
 );
 
-data=data.then(res=>res.text())
   
 
   callback(null, {
     // return null to show no errors
     statusCode: 200, // http status code
-    body: JSON.stringify({
-          data
-    }),
+    body: data,
   })
 }
