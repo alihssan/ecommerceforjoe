@@ -23,8 +23,7 @@ fetch("https://connect.squareup.com/v2/catalog/list", requestOptions)
 
 }
 */
-const fetch = require('node-fetch');
-
+ import fetch from "node-fetch"
 // For more info, check https://www.netlify.com/docs/functions/#javascript-lambda-functions
 export function handler(event, context, callback) {
   console.log("queryStringParameters", event.queryStringParameters)
