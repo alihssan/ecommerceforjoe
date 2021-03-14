@@ -21,8 +21,7 @@ export default function Home() {
 
   useEffect(()=>{
 fetch("/.netlify/functions/api")
-  .then(res=>res.json())
-  .then(console.log)
+.then(console.log)
 
   },[])
  /*const square = new SquareConnection('EAAAEGuOU0fZy_1YbWVl_HnHuTlbv7yJMp4nlJ4sRa4S0cFhgW-tZInP6oTWV1SB');
